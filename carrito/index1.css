@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #89fac100; 
+   
+    background-attachment: contain;
+    background-size:  100% 500%; 
+    display: flex;
+    flex-flow: column nowrap;
+    
+   
+}
+
+header {
+    background-color: rgba(59, 57, 57, 0.8); 
+    color: rgb(84, 184, 154);
+    padding: 10px 0;
+
+    background-image: url('img/fondos/fondo1.1.png'); height: 437px; background-color: rgb(247, 247, 247); border-bottom-width: 0px; background-position: center 0px; background-repeat: no-repeat;background-size: cover;
+    
+}
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+ 
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(28, 28, 30, 0.5); 
+    padding: 20px;
+    
+}
+.logo {
+    width: 500px;
+    vertical-align: left;
+    flex:1 1 auto;
+     
+}
+.logo-letras {
+    text-align: center;
+    margin-top: 150px; 
+}
+nav {
+    display: inline-block;
+    margin-left: 1000px;
+}
+
+nav a {
+    color: rgb(114, 179, 223);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background: rgba(248, 214, 214, 0.8);
+    border-radius: 10px; 
+    margin: 20px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    vertical-align: middle;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+div.presentacion {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    font-family: Helvetica, sans-serif;
+  }
+
+  
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px; 
+    margin: 10px auto; 
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px; 
+  }
+
+  figure {
+    margin: 0; 
+  }
+  .helvetica {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  figcaption {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    padding: 10px; 
+  }
+  footer {
+
+    background-color: #333;
+    color: #fff;
+    padding: 4%;
+    text-align: center;
+    background-image: url('img/fondos/piedepagina.png');
+    background-color: rgb(247, 247, 247); 
+    border-bottom-width: 30px; 
+    background-position: center 0px; 
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  
+
+main {
+    padding: 20px;
+}
+
+
+
+
+
+
+header.servicio {
+    background-color: #f8f9fa; 
+  }
+  
+  header.servicio .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header.servicio .logo {
+    flex: 0 0 100px;
+    margin-right: 1000px;
+    width: 100px;
+  }
+  
+  header.servicio nav a {
+    color: #6c757d; 
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  header.servicio nav a:hover {
+    color: #5a87b4; 
+  }

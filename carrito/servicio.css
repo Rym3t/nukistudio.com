@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #89fac100; 
+   
+    background-attachment: contain;
+    background-size:  100% 500%; 
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    background-image: url('img/fondos/portada_servicio.png'); height: 350px; background-color: rgb(247, 247, 247); border-bottom-width: 0px; background-position: center 0px; background-repeat: no-repeat;background-size: cover;
+    
+}
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+ 
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(28, 28, 30, 0.5); 
+    padding: 20px;
+    
+}
+
+.logo {
+  width: 50px;
+  vertical-align: middle;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 200px; 
+    font-size: 30px;
+    font-family:  Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+nav {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+div.presentacion {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    font-family: Helvetica, sans-serif;
+  }
+
+  
+.animacion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 250px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 10px auto; 
+  }
+  
+  .animacion img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px; 
+    transition: transform 0.3s ease-in-out;
+  }
+
+
+
+.agrandar .texto {
+    
+    transform: translate(-0%, -290%); 
+    text-align: center; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+   
+}
+  .agrandar {
+  transition: transform 0.3s ease; 
+}
+
+.agrandar:hover {
+  transform: scale(1.2); 
+}
+  .agrandar:hover .texto {
+    opacity: 1; 
+  }
+
+  figure {
+    margin: 0; 
+  }
+  .helvetica {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  figcaption {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    padding: 10px; 
+  }
+  footer {
+
+    background-color: #333;
+    color: #fff;
+    padding: 4%;
+    text-align: center;
+    background-image: url('img/fondos/piedepagina.png');
+    background-color: rgb(247, 247, 247); 
+    border-bottom-width: 30px; 
+    background-position: center 0px; 
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  
+
+
+
+
+
+

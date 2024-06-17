@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #89fac100; /* Color de fondo de reserva */
+   
+    background-attachment: contain;/*3*/
+    background-size:  100% 500%; /*4*/
+    display: flex;
+    flex-flow: column nowrap;
+    /* No repetir la imagen */
+   
+}
+
+header {
+    background-color: rgba(59, 57, 57, 0.8); /* Fondo semi-transparente */
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+    background-image: url('img/fondos/portafoliof-03.png'); height: 350px; background-color: rgb(247, 247, 247); border-bottom-width: 0px; background-position: center 0px; background-repeat: no-repeat;background-size: cover;
+    
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+ 
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(28, 28, 30, 0.5); /* Transparent background color */
+    padding: 20px;
+    
+}
+.logo {
+    width: 50px;
+    vertical-align: left;
+    flex:1 1 auto;
+    vertical-align: middle;
+}
+.titulo {
+    text-align: center;
+    margin-top: 200px; 
+    font-size: 30px;
+    font-family:  Helvetica, sans-serif;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.17);
+    color: #1979d5;
+}
+
+
+
+
+nav {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+  max-width: 1920px;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+
+
+ 
+  footer {
+
+    background-color: #333;
+    color: #fff;
+    padding: 4%;
+    text-align: center;
+    background-image: url('img/fondos/piedepagina.png');
+    background-color: rgb(247, 247, 247); 
+    border-bottom-width: 30px; 
+    background-position: center 0px; 
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  
+
+
+
+
+
+
